@@ -1,3 +1,4 @@
+![2](https://user-images.githubusercontent.com/20981514/127969827-ca95283b-0358-4a93-a2dd-8c6d7e083c07.png)
 # Proyecto 5
 
 El proyecto 5 consiste en llevar a cabo un procedimiento teórico que permita tomar una decisión con respecto al número de "servidores" necesarios para cierto proceso de vacunación, de forma tal que el sistema no exceda 100 personas en fila durante el 95% del tiempo de servicio. Posteriormente es necesario corroborar el resultado de los servidores y mostrar gráficamente el tiempo del sistema y el número de clientes que lo utilizan realizando una simulación utilizando Python. 
@@ -19,7 +20,7 @@ Tiempo con más de 100 solicitudes en fila:
 	 Sí cumple con la especificación.
 Simulación es equivalente a 126.07 horas.
 ```
-![1](https://user-images.githubusercontent.com/20981514/127969203-5afb9eff-3d0a-4540-aa0f-b7b1d98a4613.png)
+![1](https://user-images.githubusercontent.com/20981514/127969861-be66a736-abf3-4bb5-adf5-35ec7d1ccc41.png)
 
 
 ```
@@ -30,6 +31,4 @@ Tiempo con más de 100 solicitudes en fila:
 	 Sí cumple con la especificación.
 Simulación es equivalente a 126.09 horas.
 ```
-![2](https://user-images.githubusercontent.com/20981514/127969209-e57f73a4-639c-4b60-865d-a0e3f2501c04.png)
-
-
+![2](https://user-images.githubusercontent.com/20981514/127969851-c1410bbb-155e-4d48-9e40-871eaa1135cb.png)
