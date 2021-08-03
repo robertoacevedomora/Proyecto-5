@@ -7,3 +7,29 @@ Antes que nada, se llevó a cabo la determinación teórica del número de servi
 Para concluir, se procedió a modificar el código provisto para obtener dos gráficas que relacionaran el tiempo del sistema con respecto al número de usuarios que se encontraban en la fila y confirmar el número de servidores.  Por un lado, se concluyó para la primera grafica que únicamente el 0.26% del tiempo se encontraban más de cien personas en la fila, por el otro, en el caso de la segunda grafica se afirma que el 0.00% del tiempo más de cien personas se encontraban en la fila. Es importante tomar en cuenta que en ambas graficas se muestra una línea amarilla que cruza el eje vertical (clientes en el sistema, n) donde se identifica que el número de clientes en la fila es de 100, de esta forma es posible dimensionar gráficamente los resultados del tiempo cuando hay más de 100 solicitudes en fila.
 
 De igual forma en ambos casos el periodo de tiempo no supera el 5%, por lo cual dicha especificación si se cumple. La conducta oscilatoria de la gráfica se debe al comportamiento de los estados y la duración de cada uno de ellos.
+
+# Simulaciones ejecutadas
+Se corre dos simulaciones para 50000 personas cada uno, aunque se puede bajar la cantidad de personas para que corresponda a 8 horas - se hizo con más de lo necesario para evidenciar las pocas veces que se excede el valor de 100 personas en el sistema.
+
+```
+Parámetro lambda = 7.0
+Parámetro nu = 7.25
+Tiempo con más de 100 solicitudes en fila:
+	 0.26%
+	 Sí cumple con la especificación.
+Simulación es equivalente a 126.07 horas.
+```
+![1](https://user-images.githubusercontent.com/20981514/127969203-5afb9eff-3d0a-4540-aa0f-b7b1d98a4613.png)
+
+
+```
+Parámetro lambda = 7.0
+Parámetro nu = 7.25
+Tiempo con más de 100 solicitudes en fila:
+	 0.00%
+	 Sí cumple con la especificación.
+Simulación es equivalente a 126.09 horas.
+```
+![2](https://user-images.githubusercontent.com/20981514/127969209-e57f73a4-639c-4b60-865d-a0e3f2501c04.png)
+
+
