@@ -36,6 +36,6 @@ Simulación es equivalente a 126.09 horas.
 # Criterio de estabilidad
 Para que el sistema sea estable, se debe de cumplir:
 
-`7/(0.25\*29) < 1`
+`7/(0.25*29) < 1`
 
 Lo cual es verdadero, con lo que el sistema por lo menos podrá sostener la tasa de clientes que llega.
